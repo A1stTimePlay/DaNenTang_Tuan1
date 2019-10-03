@@ -25,7 +25,7 @@ namespace App1
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new MH_TinhTong());
         }
 
         private void Button_Clicked_2(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace App1
 
         private void CmdLogin_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new MH_Login());
         }
 
         private void CmdGridLayout_Clicked(object sender, EventArgs e)
